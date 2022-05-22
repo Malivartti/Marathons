@@ -3,6 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { Typography, Box } from "@mui/material";
 
 const pages = [
+  { name: "Главная", to: "home" },
   { name: "Дневник", to: "diary" },
   { name: "#1", to: "diary/1" },
 ];

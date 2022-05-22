@@ -4,6 +4,7 @@ import { Menu, MenuItem, Typography, IconButton, Box } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
+  { name: "Главная", to: "home" },
   { name: "Дневник", to: "diary" },
   { name: "#1", to: "diary/1" },
 ];
